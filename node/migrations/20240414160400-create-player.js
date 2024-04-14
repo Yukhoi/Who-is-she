@@ -28,6 +28,9 @@ module.exports = {
       countryId: {
         type: Sequelize.INTEGER
       },
+      age: {
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
